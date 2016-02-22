@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>nabOne Hamburger Project</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" media="all" />
+    <link rel="stylesheet" href="app/app.css" media="all" />
+</head>
+
+
+<body ng-app="nabone.burger" ng-cloak>
+<div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+
+                <div class="navbar-brand"> nabOne Hamburger Project</div>
+
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <ng-view></ng-view>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../node_modules/angular/angular.js"></script>
+<script src="../node_modules/angular-resource/angular-resource.js"></script>
+<script src="../node_modules/angular-mocks/angular-mocks.js"></script>
+<script src="../node_modules/angular-route/angular-route.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+
+<script src="app/app.js"></script>
+<script src="app/burgerMenu/burgerMenuService.js"></script>
+<script src="app/burgerMenu/burgerMenuController.js"></script>
+<script src="app/burgerMenu/burgerMenuResourceMock.js"></script>
+</body>
+</html>

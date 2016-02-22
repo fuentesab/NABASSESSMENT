@@ -1,0 +1,52 @@
+{
+  "name": "hamburgerSeedProject",
+  "version": "0.0.1",
+  "description": "An activity for prospective nabOne front-end developers",
+  "repository": {
+    "type": "git",
+    "url": "git@github.aus.thenational.com:ATFLIC-IEP/nabone_assessment.git"
+  },
+  "devDependencies": {
+    "angular": "^1.5.0",
+    "angular-mocks": "^1.5.0",
+    "angular-resource": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "angularjs": "0.0.1",
+    "bootstrap": "^3.3.6",
+    "bower": "1.5.2",
+    "grunt": "*",
+    "grunt-angular-templates": "0.5.9",
+    "grunt-cli": "0.1.5",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-connect": "0.10.1",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-less": "1.0.1",
+    "grunt-contrib-uglify": "latest",
+    "grunt-istanbul-coverage": "0.1.1",
+    "grunt-karma": "latest",
+    "grunt-protractor-runner": "2.0.0",
+    "grunt-ts": "latest",
+    "istanbul": "0.4.2",
+    "jasmine": "2.3.0",
+    "jasmine-reporters": "1.0.2",
+    "jasmine-spec-reporter": "^2.4.0",
+    "karma": "*",
+    "karma-cli": "latest",
+    "karma-coverage": "0.3.1",
+    "karma-jasmine": "*",
+    "karma-phantomjs-launcher": "*",
+    "load-grunt-tasks": "*",
+    "mkdirp": "0.5.1",
+    "phantomjs": "*",
+    "protractor": "2.1.0",
+    "remap-istanbul": "0.5.1",
+    "tsd": "*",
+    "typescript": "^1.6.2"
+  },
+  "scripts": {
+    "prepublish": "npm run bw && npm run tsd",
+    "bw": "node_modules/.bin/bower install",
+    "tsd": "node_modules/.bin/tsd install"
+  }
+}

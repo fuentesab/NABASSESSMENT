@@ -1,0 +1,40 @@
+{
+    "name": "hamburgerSeedProject",
+    "version": "0.0.1",
+    "description": "An activity for prospective nabOne front-end developers",
+    "devDependencies": {
+        "jasmine": "2.3.0"
+    },
+    "dependencies": {
+        "angular": "1.4.5",
+        "angular-bootstrap": "0.14.3",
+        "angular-loader": "1.4.5",
+        "angular-mocks": "1.4.5",
+        "angular-resource": "1.4.5",
+        "angular-route": "1.4.5",
+        "angular-sanitize": "1.4.5",
+        "angular-cookies": "1.4.5",
+        "bootstrap": "3.3.6",
+        "jquery": "~2.1.4",
+        "lodash": "~3.2.0",
+        "modernizr": "~2.8.3"
+    },
+    "ignore": [
+        "**/.*",
+        "build",
+        "bower_components",
+        "node_modules",
+        "tasks",
+        "test",
+        "component.json",
+        "Gruntfile.js",
+        "package.json",
+        "tsd.json",
+        "src"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.aus.thenational.com:ATFLIC-IEP/nabone_assessment.git"
+    }
+
+}
